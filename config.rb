@@ -1,6 +1,8 @@
 ###
 # Compass
 ###
+require "slim"
+Slim::Engine.disable_option_validator!
 
 # Change Compass configuration
 # compass_config do |config|
