@@ -320,19 +320,27 @@ header .container, footer .container, section .container {
   /* line 22, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .showcase .brand {
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 128px;
     width: 227px;
     height: 108px;
     background: url("../img/index/brand.png") no-repeat; }
   /* line 29, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  .showcase .weixin-qrcode {
+    top: 300px;
+    right: 20px;
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    background: url("../img/index/weixin_qrcode.jpg") no-repeat; }
+  /* line 36, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .showcase .download-info {
     top: 264px;
     right: 0;
     position: absolute;
     width: 427px;
     height: 180px; }
-    /* line 35, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 42, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     .showcase .download-info .btn-download-android, .showcase .download-info .btn-download-ios {
       width: 210px;
       height: 60px;
@@ -349,36 +357,36 @@ header .container, footer .container, section .container {
     .showcase .download-info .button-sprite, .showcase .download-info .btn-download-android, .showcase .download-info .btn-download-android:hover, .showcase .download-info .btn-download-ios, .showcase .download-info .btn-download-ios:hover {
       background-image: url("../img/index/button-s5666e3e9e2.png");
       background-repeat: no-repeat; }
-    /* line 41, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 48, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     .showcase .download-info .btn-download-android {
       background-position: 0 -60px;
       margin-top: 37px; }
-      /* line 43, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 50, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       .showcase .download-info .btn-download-android:hover {
         background-position: 0 0; }
-    /* line 46, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 53, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     .showcase .download-info .btn-download-ios {
       background-position: 0 -180px;
       margin-top: 15px; }
-      /* line 48, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 55, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       .showcase .download-info .btn-download-ios:hover {
         background-position: 0 -120px; }
-    /* line 51, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 58, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     .showcase .download-info .qrcode {
       float: right;
       background: url("../img/index/qrcode.jpg") no-repeat;
       width: 180px;
       height: 180px; }
 
-/* line 57, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 64, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 .feature-guide-starter {
   height: 500px;
   background: url("../img/index/feature-guide-starter-bg.jpg") top no-repeat no-repeat;
   min-width: 1002px; }
-  /* line 61, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 68, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .feature-guide-starter .container {
     position: relative; }
-  /* line 63, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 70, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .feature-guide-starter .feature-intro {
     text-indent: -119988px;
     overflow: hidden;
@@ -389,7 +397,7 @@ header .container, footer .container, section .container {
     top: 207px;
     width: 100%;
     height: 38px; }
-  /* line 70, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 77, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .feature-guide-starter .start-icon {
     position: absolute;
     background: url("../img/index/start-icon.png") top center no-repeat;
@@ -397,61 +405,63 @@ header .container, footer .container, section .container {
     height: 204px;
     top: 295px; }
 
-/* line 78, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 85, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 .feature-guide .container {
   height: 1965px; }
-/* line 80, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 87, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 .feature-guide .guider-wrapper {
   background: url("../img/index/feature-guide.jpg") top center no-repeat;
   height: 1965px;
   margin-left: -10px; }
 
-/* line 85, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 92, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 header {
   height: 100px;
   background: white;
   overflow: hidden; }
-  /* line 89, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 96, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   header .slogan, header .logo {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline; }
-  /* line 91, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 98, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   header .slogan {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
     text-transform: capitalize;
-    background: url("../img/index/slogan.jpg");
-    width: 305px;
-    height: 38px;
+    background: url("../img/index/slogan.jpg") no-repeat;
+    width: 168px;
+    height: 70px;
     margin-left: 24px;
-    margin-top: 43px; }
-  /* line 98, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    margin-top: 26px; }
+  /* line 105, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   header .logo {
     width: 166px;
     height: 64px;
-    margin-top: 24px;
+    margin-top: 16px;
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
     text-transform: capitalize;
     background: url("../img/index/logo.png"); }
 
-/* line 105, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 112, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 footer {
   height: 292px;
   background-color: #0bb1a0;
   min-width: 1002px;
   color: white;
-  overflow: hidden; }
-  /* line 111, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  overflow: hidden;
+  text-align: center; }
+  /* line 119, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .info-wrapper {
     margin-top: 50px; }
-  /* line 113, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 121, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .info-list {
+    text-align: left;
     font-size: 16px;
     display: inline-block;
     vertical-align: middle;
@@ -460,38 +470,38 @@ footer {
     *display: inline;
     vertical-align: top;
     margin-right: 100px; }
-    /* line 118, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 127, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list a {
       color: #f6f6f6; }
-      /* line 120, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 129, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .info-list a:visited {
         color: #f6f6f6; }
-      /* line 122, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 131, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .info-list a:hover {
         color: #055850; }
-    /* line 124, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 133, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list ul {
       color: #f6f6f6;
       margin-bottom: 0; }
-    /* line 127, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 136, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list li {
       padding: 3px 0; }
-  /* line 129, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 138, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .follow-info {
     padding-right: 60px;
     margin-right: 60px;
     position: relative; }
-    /* line 133, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 142, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info li {
       padding: 8px 0; }
-      /* line 135, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 144, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .follow-info li a {
         display: inline-block;
         vertical-align: middle;
         *vertical-align: auto;
         *zoom: 1;
         *display: inline; }
-    /* line 137, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 146, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info:after {
       content: "";
       position: absolute;
@@ -501,7 +511,7 @@ footer {
       height: 62px;
       display: block;
       background: #f6f6f6; }
-    /* line 146, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 155, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weixin, footer .follow-info .icon-weibo {
       height: 28px;
       width: 34px;
@@ -515,18 +525,27 @@ footer {
     footer .follow-info .icon-sprite, footer .follow-info .icon-weibo, footer .follow-info .icon-weixin {
       background-image: url("../img/index/icon-s3d16e3afaa.png");
       background-repeat: no-repeat; }
-    /* line 152, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 161, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weibo {
       margin-top: -5px;
       background-position: 0 0; }
-    /* line 155, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 164, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weixin {
       background-position: 0 -28px; }
-  /* line 157, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 166, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .copyright {
     text-align: center;
     margin-top: 50px;
     font-size: 16px; }
+
+/* line 171, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+.modal#weixin-qrcode-modal {
+  width: 215px; }
+  /* line 173, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  .modal#weixin-qrcode-modal .weixin-qrcode {
+    width: 215px;
+    height: 215px;
+    background: url("../img/index/weixin_qrcode.jpg") no-repeat; }
 /*! normalize.css v1.0.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -1032,6 +1051,116 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* jQuery Modal
+ * Copyright 2014 Kevin Sylvestre
+ * 1.1.8
+ */
+
+.modal, .vignette, .modaler {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.modaled {
+  overflow: hidden;
+  -webkit-overflow-style: none;
+  -moz-overflow-style: none;
+  -ms-overflow-style: none; }
+  .modaled::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important; }
+  .modaled::-moz-scrollbar {
+    display: none !important;
+    width: 0 !important; }
+  .modaled::-ms-scrollbar {
+    display: none !important;
+    width: 0 !important; }
+
+.modaler {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 4000; }
+  .modaler .modal {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+    margin: 40px auto; }
+
+.modal {
+  position: fixed;
+  background: white;
+  top: 20%;
+  left: 50%;
+  right: 50%;
+  width: 620px;
+  margin: 0 -320px;
+  z-index: 4000;
+  box-shadow: 0 2px 8px black;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1); }
+  .modal.fade {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8); }
+  .modal .header, .modal .footer, .modal .body {
+    padding: 10px; }
+    .modal .header:before, .modal .header:after, .modal .footer:before, .modal .footer:after, .modal .body:before, .modal .body:after {
+      content: " ";
+      display: table;
+      clear: both; }
+  .modal .header *, .modal .footer * {
+    margin: 0; }
+  .modal .body {
+    min-height: 240px;
+    max-height: 480px;
+    overflow: auto; }
+  .modal .header {
+    border-bottom: 1px solid #eeeeee; }
+  .modal .footer {
+    border-top: 1px solid #eeeeee; }
+  .modal .close {
+    color: gray;
+    float: right;
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center; }
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 2000;
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+  .vignette.fade {
+    opacity: 0;
+    filter: alpha(opacity=0); }
 /*
  */
 /* copy from http://tinyurl.com/pxkeob8
@@ -1044,8 +1173,11 @@ body {
 /* line 14, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
 a {
   text-decoration: none; }
+  /* line 16, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
+  a:active, a:hover {
+    outline: none; }
 
-/* line 17, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
+/* line 19, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
 ul {
   list-style: none;
   padding: 0; }
