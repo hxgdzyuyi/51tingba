@@ -472,36 +472,37 @@ footer {
     margin-right: 100px; }
     /* line 127, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list a {
-      color: #f6f6f6; }
+      color: #f6f6f6;
+      outline: none; }
       /* line 129, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .info-list a:visited {
         color: #f6f6f6; }
       /* line 131, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .info-list a:hover {
         color: #055850; }
-    /* line 133, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 134, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list ul {
       color: #f6f6f6;
       margin-bottom: 0; }
-    /* line 136, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 137, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .info-list li {
       padding: 3px 0; }
-  /* line 138, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 139, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .follow-info {
     padding-right: 60px;
     margin-right: 60px;
     position: relative; }
-    /* line 142, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 143, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info li {
       padding: 8px 0; }
-      /* line 144, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+      /* line 145, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
       footer .follow-info li a {
         display: inline-block;
         vertical-align: middle;
         *vertical-align: auto;
         *zoom: 1;
         *display: inline; }
-    /* line 146, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 147, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info:after {
       content: "";
       position: absolute;
@@ -511,7 +512,7 @@ footer {
       height: 62px;
       display: block;
       background: #f6f6f6; }
-    /* line 155, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 156, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weixin, footer .follow-info .icon-weibo {
       height: 28px;
       width: 34px;
@@ -525,23 +526,23 @@ footer {
     footer .follow-info .icon-sprite, footer .follow-info .icon-weibo, footer .follow-info .icon-weixin {
       background-image: url("../img/index/icon-s3d16e3afaa.png");
       background-repeat: no-repeat; }
-    /* line 161, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 162, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weibo {
       margin-top: -5px;
       background-position: 0 0; }
-    /* line 164, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+    /* line 165, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
     footer .follow-info .icon-weixin {
       background-position: 0 -28px; }
-  /* line 166, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 167, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   footer .copyright {
     text-align: center;
     margin-top: 50px;
     font-size: 16px; }
 
-/* line 171, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+/* line 172, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
 .modal#weixin-qrcode-modal {
   width: 215px; }
-  /* line 173, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
+  /* line 174, /Users/yangao/mine-work/tingba/source/css/index.css.sass */
   .modal#weixin-qrcode-modal .weixin-qrcode {
     width: 215px;
     height: 215px;
@@ -1173,11 +1174,8 @@ body {
 /* line 14, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
 a {
   text-decoration: none; }
-  /* line 16, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
-  a:active, a:hover {
-    outline: none; }
 
-/* line 19, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
+/* line 17, /Users/yangao/mine-work/tingba/source/css/application.css.sass */
 ul {
   list-style: none;
   padding: 0; }
